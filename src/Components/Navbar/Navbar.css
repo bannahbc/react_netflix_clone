@@ -1,0 +1,36 @@
+.navbar{
+    padding: 20px 6%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 14px;
+    z-index: 1;
+    cursor: pointer;
+}
+.nav-list{
+    list-style: none;
+}
+.nav-logo{
+   
+    width: 90px;
+}
+.left-nav{
+    display: flex;
+    gap: 18px;
+    align-items: center;
+}
+.left-nav ul{
+    display: flex;
+    gap: 15px;
+}
+.right-nav{
+    ul{
+        display: flex;
+        gap: 15px;
+        align-items: center;
+    }
+}
+.right-nav .icons{
+    width: 20px;
+}

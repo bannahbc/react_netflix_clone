@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.hero{
+    position: relative;
+}
+.banner-img img{
+    width: 100%;
+    mask-image: linear-gradient(to right,transparent ,black 75%);
+    -webkit-mask-image: linear-gradient(to right,transparent ,black 75%);
+}
