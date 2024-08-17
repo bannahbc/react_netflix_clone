@@ -1,0 +1,29 @@
+.footer{
+    margin-left: 10%;
+}
+.footer-list{
+    width: 100%;
+    margin-bottom: 25px; 
+}
+.social-icons{
+    margin:10px 15px 0 0;
+    max-width: 25px;
+    cursor: pointer;
+}
+.footer-list ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.footer-list ul li{
+    margin: 8px 0 ;
+}
+.footer-list ul li a{
+    text-decoration: none;
+    color: white;
+}
+.copy_right{
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 50px;
+}

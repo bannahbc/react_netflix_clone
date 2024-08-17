@@ -9,9 +9,58 @@ body{
 }
 .hero{
     position: relative;
+    margin-bottom: 40px;
 }
 .banner-img img{
     width: 100%;
     mask-image: linear-gradient(to right,transparent ,black 75%);
     -webkit-mask-image: linear-gradient(to right,transparent ,black 75%);
+}
+.hero-banner-content{
+    position:absolute;
+    top: 35%;
+    width: 100%;
+    padding-left: 6%;
+}
+.hero-banner-content img{
+    width: 90%;
+    max-width: 480px;
+}
+.hero-banner-content .buttons{
+    margin-top: 8px;
+    margin-bottom: 25px;
+    display: flex;
+    width: 250px;
+    gap: 10px;
+    .dark-btn{
+        background: rgba(81, 79, 77, 0.456);
+    }
+}
+.hero-banner-content .buttons button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 25px;
+
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    background-color: rgb(184, 182, 182);
+    img{
+        width: 20px;
+    }
+    
+}
+.home-contents{
+padding-top:50px ;
+   margin-left: 5%;
+}
+.home-contents .cards{
+    margin-bottom: 25px;
+}
+.home-contents .cards .card-list img{
+    width: 180px;
+}
+.title-card .title{
+    margin-bottom: 20px;
 }
