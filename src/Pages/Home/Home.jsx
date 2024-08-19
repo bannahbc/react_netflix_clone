@@ -18,7 +18,7 @@ const Home  = ()=>{
                 <img src={banner_img} alt="" />
             </div>
             <div className="hero-banner-content">
-                <img src={hero_title} alt="" />
+                <img src={hero_title} alt="" className="banner-title-img" />
                 <div className="buttons">
                     <button><img src={play_icon} alt="" /> Play</button>
                     <button  className="dark-btn"><img src={info_icon} alt="" /> Info</button>

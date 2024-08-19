@@ -1,5 +1,4 @@
 .cards{
-    width: 100%;
     display: flex;
     gap: 20px;
     overflow-x: scroll;
@@ -7,12 +6,16 @@
 .cards::-webkit-scrollbar{
     display: none;
 }
+.card-list{
+    text-decoration: none;
+}
 .card-list img{
     width: 150px;
     border-radius: 8px;
 }
 .card-list p{
-    font-size: 14px;
+    color: white;
+    font-size: 0.8rem;
 
 }
 .title-card .title{

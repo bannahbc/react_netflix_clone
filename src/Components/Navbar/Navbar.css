@@ -7,6 +7,11 @@
     font-size: 14px;
     z-index: 1;
     cursor: pointer;
+    transition: all 0.6s;
+}
+.dark-nav{
+    background: #000000ee;
+
 }
 .nav-list{
     list-style: none;
@@ -33,4 +38,39 @@
 }
 .right-nav .icons{
     width: 20px;
+}
+
+.navbar-right{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    z-index: 4;
+}
+.navbar-right .icons{
+    width: 20px;
+    cursor: pointer;
+}
+.navbar-right .profile{
+    width: 35px;
+}
+.navbar-profile{
+    gap: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.navbar-right .dropdown{
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: max-content;
+    padding: 12px 20px;
+    border-radius: 7px;
+    background-color: #191919;
+    display: none;
+}
+.navbar-profile:hover .dropdown{
+    display: block;
+    margin-top: 1px;
 }

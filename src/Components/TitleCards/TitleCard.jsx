@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
-import cards from '../../Assests/cards/Cards_data'
+// import cards from '../../Assests/cards/Cards_data'
 import './TitleCard.css'
+import { Link } from 'react-router-dom';
 function TitleCard({title,category}) {
     const cardRef = useRef();
     const handleWheel = event =>{
@@ -33,10 +34,11 @@ function TitleCard({title,category}) {
         <div className="cards" ref={cardRef}>
         {
             apiData.map((card,index)=>{
-                return <div className="card-list" key={index}>
+                return <Link to={`/player/${card.id}`} className="card-list" key={index}>
                     <img src={`https://image.tmdb.org/t/p/w500/${card.poster_path}`} alt="" />
                     <p>{card.original_title}</p>
-                </div>
+                    <h5>{card.id}</h5>
+                </Link>
             })
         }
         </div>

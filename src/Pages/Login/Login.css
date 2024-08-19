@@ -27,6 +27,7 @@
     border-radius: 4px;
     color:white;
     padding: 15px 0;
+    cursor: pointer;
 }
 .login .contents form input{
     width: 100%;
@@ -54,5 +55,16 @@
     color: gray;
 }
 .form-switch span{
+    cursor: pointer;
     color: whitesmoke;
+}
+.loading_spinner{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loading_spinner img{
+    width: 60px;
 }
