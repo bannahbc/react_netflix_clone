@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/react_netflix_clone.git/static/css/main.bb23c120.css",
-    "main.js": "/react_netflix_clone.git/static/js/main.00234669.js",
-    "static/js/453.ed3810f9.chunk.js": "/react_netflix_clone.git/static/js/453.ed3810f9.chunk.js",
-    "static/media/hero_banner.jpg": "/react_netflix_clone.git/static/media/hero_banner.83badbd673866f1cf0ec.jpg",
-    "static/media/netflix_spinner.gif": "/react_netflix_clone.git/static/media/netflix_spinner.7517415e575521b3249f.gif",
-    "static/media/background_banner.jpg": "/react_netflix_clone.git/static/media/background_banner.303a83aff58191b99963.jpg",
-    "static/media/hero_title.png": "/react_netflix_clone.git/static/media/hero_title.fb7d28ec479a34f01d58.png",
-    "static/media/logo.png": "/react_netflix_clone.git/static/media/logo.6521ee8dd0b9223ba3b5.png",
-    "static/media/bell_icon.svg": "/react_netflix_clone.git/static/media/bell_icon.0462b63671476e5256a99e7cc1a42bc0.svg",
-    "index.html": "/react_netflix_clone.git/index.html",
-    "static/media/search_icon.svg": "/react_netflix_clone.git/static/media/search_icon.59429cd0003678c5368450ea61101e56.svg",
-    "static/media/caret_icon.svg": "/react_netflix_clone.git/static/media/caret_icon.0d0a268cfa90dc1d8acf717a337a30cf.svg",
-    "main.bb23c120.css.map": "/react_netflix_clone.git/static/css/main.bb23c120.css.map",
-    "main.00234669.js.map": "/react_netflix_clone.git/static/js/main.00234669.js.map",
-    "453.ed3810f9.chunk.js.map": "/react_netflix_clone.git/static/js/453.ed3810f9.chunk.js.map"
+    "main.css": "/react_netflix_clone/static/css/main.829e020d.css",
+    "main.js": "/react_netflix_clone/static/js/main.2a253ec6.js",
+    "static/js/453.ed3810f9.chunk.js": "/react_netflix_clone/static/js/453.ed3810f9.chunk.js",
+    "static/media/hero_banner.jpg": "/react_netflix_clone/static/media/hero_banner.83badbd673866f1cf0ec.jpg",
+    "static/media/netflix_spinner.gif": "/react_netflix_clone/static/media/netflix_spinner.7517415e575521b3249f.gif",
+    "static/media/background_banner.jpg": "/react_netflix_clone/static/media/background_banner.303a83aff58191b99963.jpg",
+    "static/media/hero_title.png": "/react_netflix_clone/static/media/hero_title.fb7d28ec479a34f01d58.png",
+    "static/media/logo.png": "/react_netflix_clone/static/media/logo.6521ee8dd0b9223ba3b5.png",
+    "static/media/bell_icon.svg": "/react_netflix_clone/static/media/bell_icon.0462b63671476e5256a99e7cc1a42bc0.svg",
+    "index.html": "/react_netflix_clone/index.html",
+    "static/media/search_icon.svg": "/react_netflix_clone/static/media/search_icon.59429cd0003678c5368450ea61101e56.svg",
+    "static/media/caret_icon.svg": "/react_netflix_clone/static/media/caret_icon.0d0a268cfa90dc1d8acf717a337a30cf.svg",
+    "main.829e020d.css.map": "/react_netflix_clone/static/css/main.829e020d.css.map",
+    "main.2a253ec6.js.map": "/react_netflix_clone/static/js/main.2a253ec6.js.map",
+    "453.ed3810f9.chunk.js.map": "/react_netflix_clone/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb23c120.css",
-    "static/js/main.00234669.js"
+    "static/css/main.829e020d.css",
+    "static/js/main.2a253ec6.js"
   ]
 }
