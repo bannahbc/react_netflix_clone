@@ -41,15 +41,20 @@ body{
     align-items: center;
     gap: 10px;
     padding: 10px 25px;
-
+    border-radius: 4px;
     outline: none;
     border: 0;
     cursor: pointer;
     background-color: rgb(184, 182, 182);
+    transition: all 0.5s;
     img{
         width: 20px;
     }
     
+}
+.hero-banner-content .buttons button:hover{
+    transition: all 0.4s;
+    background-color: rgb(118, 118, 118);
 }
 .home-contents{
     padding-top:50px ;
@@ -64,4 +69,27 @@ margin-top: 50px;
 }
 .title-card .title{
     margin-bottom: 20px;
+}
+
+@media (max-width:1290px) {
+    .hero_cards .cards img{
+        width: 100px;
+    }
+    .hero-banner-content{
+        width: 60%;
+      
+    }
+    .hero-banner-content .buttons button{
+        img{
+            max-width: 15px;
+        }
+    }
+}
+@media (max-width:1100px) {
+    .hero_cards{
+        display: none;
+    }
+    .home-contents .cards .card-list img{
+        width: 120px;
+    }
 }

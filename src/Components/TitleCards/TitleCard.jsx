@@ -37,7 +37,7 @@ function TitleCard({title,category}) {
                 return <Link to={`/player/${card.id}`} className="card-list" key={index}>
                     <img src={`https://image.tmdb.org/t/p/w500/${card.poster_path}`} alt="" />
                     <p>{card.original_title}</p>
-                    <h5>{card.id}</h5>
+            
                 </Link>
             })
         }

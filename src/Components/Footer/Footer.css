@@ -27,3 +27,9 @@
     font-size: 14px;
     margin-bottom: 50px;
 }
+@media (max-width:607px) {
+    .footer-list ul{
+        margin-top: 33px;
+        grid-template-columns: auto auto;
+    }
+}

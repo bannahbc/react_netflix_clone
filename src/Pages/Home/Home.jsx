@@ -23,7 +23,10 @@ const Home  = ()=>{
                     <button><img src={play_icon} alt="" /> Play</button>
                     <button  className="dark-btn"><img src={info_icon} alt="" /> Info</button>
                 </div>
+                <div className="hero_cards">
+
                 <TitleCard title={"Pop"}/>
+                </div>
 
             </div>
         </div>
